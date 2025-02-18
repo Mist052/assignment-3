@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Hypothermia
+comment0.text=\r\n\ The\ Hypothermia\ class\ represents\ a\ disease\ that\ an\ animal\r\n\ may\ get\ infected\ by\ due\ to\ the\ cold\ conditions.\r\n\ It\ causes\ the\ animal's\ movement\ to\ stop\ and\r\n\ has\ a\ maximum\ duration\ of\ steps.\r\n\ Each\ step\ there\ is\ a\ chance\ for\ the\ animal\ to\ recover,\r\n\ but\ it\ dies\ if\ maximum\ number\ of\ steps\ are\ reached.\r\n\ The\ host\ can\ also\ transmit\ the\ infection\ to\ offspring\r\n\ when\ breeding\ or\ to\ predator\ when\ it\ is\ eaten.\r\n\ \r\n\ @author\ Ahmed\ Imtiaz\r\n\ @version\ 16.02.2025\r\n
+comment1.params=
+comment1.target=Hypothermia()
+comment1.text=\r\n\ The\ contructor\ for\ the\ Hypothermia\ class.\ \r\n
+comment2.params=host
+comment2.target=void\ update(Animal)
+comment2.text=\r\n\ This\ method\ progresses\ the\ hypothermia\ one\ step.\r\n\ If\ it\ has\ lasted\ too\ long,\ the\ host\ dies.\r\n\ Otherwise,\ there\ is\ a\ chance\ for\ recovery.\r\n\ \r\n\ @param\ \ host\ \ The\ animal\ that\ is\ infected\ by\ hypothermia.\r\n
+numComments=3

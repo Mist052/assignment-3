@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Moss
+comment0.text=\r\n\ A\ simple\ model\ of\ moss.\r\n\ Moss\ grows\ at\ a\ fixed\ rate\ and\ can\ be\ eaten\ by\ fishals\ and\ squirrels.\r\n\r\n\ @author\ Bishal\r\n\ @version\ 1.0\r\n
+comment1.params=location
+comment1.target=Moss(Location)
+comment1.text=\r\n\ Create\ a\ new\ moss\ at\ the\ given\ location.\r\n\ @param\ location\ The\ location\ of\ the\ moss.\r\n
+comment2.params=
+comment2.target=double\ getMaxSize()
+comment2.text=\r\n\ Get\ the\ maximum\ size\ of\ the\ moss.\r\n\ @return\ The\ maximum\ size\ of\ the\ moss.\r\n
+comment3.params=
+comment3.target=boolean\ isFullyGrown()
+comment3.text=\r\n\ Check\ if\ the\ moss\ is\ fully\ grown.\r\n\ @return\ true\ if\ the\ moss\ is\ fully\ grown.\r\n
+numComments=4

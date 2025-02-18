@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\r\n\ Common\ elements\ of\ plants.\r\n\ Plants\ grow\ at\ a\ fixed\ rate\ and\ cannot\ move\ from\ their\ position.\r\n\r\n\ @author\ Your\ Name\r\n\ @version\ 1.0\r\n
+comment1.params=location\ growthRate
+comment1.target=Plant(Location,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Plant.\r\n\ @param\ location\ The\ plant's\ location.\r\n\ @param\ growthRate\ The\ rate\ at\ which\ the\ plant\ grows.\r\n
+comment2.params=
+comment2.target=void\ grow()
+comment2.text=\r\n\ Grow\ the\ plant\ by\ its\ growth\ rate.\r\n
+comment3.params=
+comment3.target=Location\ getLocation()
+comment3.text=\r\n\ Return\ the\ plant's\ location.\r\n\ @return\ The\ plant's\ location.\r\n
+comment4.params=
+comment4.target=double\ getSize()
+comment4.text=\r\n\ Return\ the\ current\ size\ of\ the\ plant.\r\n\ @return\ The\ size\ of\ the\ plant.\r\n
+comment5.params=amount
+comment5.target=void\ reduceSize(double)
+comment5.text=\r\n\ Reduce\ the\ size\ of\ the\ plant\ when\ it\ is\ eaten.\r\n\ @param\ amount\ The\ amount\ to\ reduce\ the\ size\ by.\r\n
+comment6.params=
+comment6.target=double\ getMaxSize()
+comment6.text=\r\n\ Get\ the\ maximum\ size\ of\ the\ plant.\r\n\ @return\ The\ maximum\ size\ of\ the\ plant.\r\n
+comment7.params=
+comment7.target=boolean\ isFullyGrown()
+comment7.text=\r\n\ Check\ if\ the\ plant\ is\ fully\ grown.\r\n\ @return\ true\ if\ the\ plant\ is\ fully\ grown.\r\n
+numComments=8
