@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SleepCycle
+comment0.text=\r\n\ The\ SleepCycle\ class\ allows\ the\ Animals\ to\ have\ a\ sleep\ schedule.\r\n\ From\ here\ you\ are\ able\ to\ control\ the\ sleep\ cycle\ of\ all\ the\r\n\ animals\ in\ the\ simulation.\r\n\r\n\ @author\ Ahmed\ Imtiaz\r\n\ @version\ 16.02.2025\r\n
+comment1.params=
+comment1.target=SleepCycle()
+comment1.text=\r\n\ Constructor\ for\ SleepCycle.\r\n\ Initialises\ a\ specific\ sleep\ schedule\ for\r\n\ all\ the\ animals.\r\n
+comment2.params=sleepHour\ wakeUpHour
+comment2.target=SleepCycle(int,\ int)
+comment2.text=\r\n\ Constructor\ with\ a\ parameter.\r\n\ Allows\ the\ user\ to\ customise\ the\ sleep\ schedule.\r\n\ \r\n\ @param\ \ sleepHour\ \ The\ hour\ at\ which\ the\ animals\ fall\ asleep.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 24-hour\ format.\r\n\ @param\ \ wakeUpHour\ \ The\ hour\ at\ which\ the\ animals\ wake\ up.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 24-hour\ format.\r\n
+comment3.params=time
+comment3.target=boolean\ isSleepTime(Time)
+comment3.text=\r\n\ This\ method\ finds\ out\ if\ the\ current\ time\ is\r\n\ in\ the\ sleep\ cycle.\r\n\r\n\ @param\ \ time\ \ An\ object\ representing\ the\ current\ time.\r\n\ @return\ \ True\ if\ the\ current\ time\ is\ within\ the\ sleep\ cycle,\r\n\ \ \ \ \ \ \ \ \ \ false\ otherwise.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getSleepCycle()
+comment4.text=\r\n\ This\ method\ is\ used\ to\ find\ out\ the\ current\ sleep\r\n\ cycle\ in\ the\ simulation.\r\n\ It\ will\ return\ the\ sleep\ cycle\ as\ a\ string\ in\ the\r\n\ 24-hour\ clock\ format.\r\n\ \r\n\ @return\ \ A\ string\ of\ the\ sleep\ cycle\ in\ the\ 24-hour\ format.\r\n
+numComments=5

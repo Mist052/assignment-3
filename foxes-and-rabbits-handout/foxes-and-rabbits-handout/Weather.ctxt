@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ The\ Weather\ class\ creates\ and\ controls\ the\r\n\ weather\ conditions\ in\ the\ simulation.\r\n\ The\ different\ weather\ types\ can\ have\r\n\ certain\ effects\ on\ the\ animals\ in\ the\r\n\ simulation.\r\n\r\n\ @author\ Ahmed\ Imtiaz\r\n\ @version\ (13.02.2025)\r\n
+comment1.params=
+comment1.target=Weather()
+comment1.text=\r\n\ Constructor\ for\ the\ Weather\ class.\r\n\ Sets\ the\ default\ weather\ to\ clear.\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ This\ method\ updates\ the\ weather\ conditions\ for\r\n\ every\ step\ in\ the\ simulation.\r\n\r\n\ It\ decrements\ the\ steps\ of\ the\ weather\ conditions\r\n\ and\ changes\ weather\ when\ the\ steps\ reach\ zero.\r\n\ It\ uses\ probability\ to\ decide\ if\ the\ weather\r\n\ condition\ occurs\ or\ not\ and\ for\ how\ many\ steps.\r\n
+comment3.params=
+comment3.target=boolean\ skipMoveChance()
+comment3.text=\r\n\ This\ method\ decides\ if\ an\ animal\ skips\ its\ movement\r\n\ on\ the\ current\ step.\r\n\ This\ overall\ slows\ the\ animal\ down.\r\n\ This\ is\ the\ effect\ of\ the\ blizzard\ and\ only\r\n\ occurs\ when\ blizzard\ is\ active.\r\n\ \r\n\ @return\ \ True\ if\ the\ animal\ should\ skip\ its\ movement\r\n\ \ \ \ \ \ \ \ \ \ false\ otherwise\r\n
+comment4.params=
+comment4.target=java.lang.String\ getWeatherDescription()
+comment4.text=\r\n\ This\ method\ returns\ the\ current\ weather\ condition\ in\r\n\ the\ simulation\ as\ a\ string.\r\n\ \r\n\ @return\ "Blizzard"\ if\ weather\ is\ a\ blizzard,\ otherwise\ "Clear\ sky".\r\n
+comment5.params=
+comment5.target=Weather.WeatherType\ getCurrentWeather()
+comment5.text=\r\n\ @return\ \ The\ current\ WeatherType\ \ \r\n
+numComments=6

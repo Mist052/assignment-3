@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\r\n\ The\ time\ class\ controls\ and\ keeps\ track\ of\ the\r\n\ time\ in\ the\ simulation.\r\n\ It\ stores\ the\ time\ in\ a\ 24-hour\ clock\ format.\r\n\r\n\ @author\ Ahmed\ Imtiaz\r\n\ @version\ 17.02.2025\r\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\r\n\ Constructor\ for\ Time\ class.\r\n\ Controls\ the\ time\ at\ which\ the\ simulation\ starts.\r\n
+comment2.params=hour\ minute
+comment2.target=Time(int,\ int)
+comment2.text=\r\n\ Contructor\ for\ Time\ class\ with\ parameters.\r\n\ Allows\ user\ to\ set\ the\ time\ at\ which\r\n\ the\ simulation\ starts.\r\n\ \r\n\ @param\ \ hour\ \ The\ starting\ hour\ of\ the\ simulation.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ In\ 24-hour\ format.\r\n\ @param\ \ minute\ \ The\ starting\ minute\ of\ the\ simulation.\r\n
+comment3.params=
+comment3.target=void\ incrementMinute()
+comment3.text=\r\n\ A\ method\ to\ increment\ the\ minutes\ of\ the\ time\r\n\ in\ the\ simulation.\r\n
+comment4.params=
+comment4.target=void\ incrementHour()
+comment4.text=\r\n\ A\ method\ to\ increment\ the\ hours\ of\ the\ time\r\n\ in\ the\ simulation.\r\n
+comment5.params=
+comment5.target=void\ reset()
+comment5.text=\r\n\ A\ method\ to\ reset\ the\ clock\ to\ the\ default\ starting\r\n\ time\ set\ in\ the\ constructor.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment6.text=\r\n\ This\ method\ is\ used\ to\ find\ out\ the\ current\ time\r\n\ in\ the\ simulation.\r\n\ It\ will\ return\ the\ time\ as\ a\ string\ in\ the\r\n\ 24-hour\ clock\ format.\r\n
+comment7.params=
+comment7.target=int\ getHour()
+comment7.text=\r\n\ This\ method\ returns\ the\ current\ hour\ in\ the\r\n\ simulation.\r\n\ \r\n\ @return\ \ The\ current\ hour\ as\ a\ value\ between\ 0\ and\ 23.\r\n
+numComments=8
